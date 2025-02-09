@@ -15,14 +15,26 @@
 <body><!-- Step 1-> add header -->
     <!-- Клас "bg-light" задава светъл фонов цвят на хедъра. 
          Клас "py-3" добавя вертикални вътрешни отстояния (padding) от 1rem отгоре и отдолу. -->
-         <!-- "container" осигурява фиксирана ширина и центрира съдържанието.
+    <!-- "container" осигурява фиксирана ширина и центрира съдържанието.
              "d-flex" активира Flexbox, за подравняване на елементите.
              "justify-content-between" разпределя елементите по ширината, оставяйки празно място между тях.
              "align-items-center" подравнява елементите по вертикалата в центъра. -->
-             <!-- "btn" е базовият клас за стилизиране на бутон.
+    <!-- "btn" е базовият клас за стилизиране на бутон.
                  "btn-warning" задава жълт цвят на бутона.
                  "me-2" добавя десен марджин (margin) от 0.5rem. -->
-   
+    <header class="bg-light d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+            <img src="/Practic 12 - Copy/images/ad.png" alt="Ad's Board" height="80" class="mx-3 my-1">
+            <h1 class="title">Ad's Board</h1>
+
+        </div>
+        <div class="mx-5">
+            <button class="btn btn-warning">+New ad</button>
+            <img src="/Practic 12 - Copy/images/av_64.png" alt="Avatar">
+            <a href="#">My profile</a>
+        </div>
+    </header>
+
 </body>
 
 </html>
